@@ -79,7 +79,7 @@ Once connected to the internet, the user was receiving fake system notifications
 - Notifications only appear while online  
 - Behavior consistent with adware exploiting browser notification permissions
 
-![Example of fake Safari notification with broken grammar and sketchy URL](path-to-image)
+![Fake_Notifications](AdwareRemoval/images/Fake_Notifications.png)
 
 ---
 
@@ -93,6 +93,8 @@ To investigate the source of the notifications, I checked the logs for any unusu
 2. Run the following command to filter logs related to system bootstrapping:
    ```bash
    log show --predicate 'eventType == "com.apple.message.system.bootstrap"' --last 7d
+
+![Logs7d](AdwareRemoval/images/Logs.png)
 
 ### 🔎 What to Look For
 Unusual system processes, errors, or any suspicious app/process names during the period of fake notifications.
@@ -126,6 +128,8 @@ The next step was to clean up Safari and remove any traces of the suspicious beh
 1. Open **Safari** > **Preferences** > **Websites** > **Notifications**.
 2. Remove any unfamiliar or sketchy websites (in this case, I found 3).
 
+![Notifications](AdwareRemoval/images/Websites.png)
+
 ### 🧹 Clear Website Data
 
 1. Go to **Safari** > **Preferences** > **Privacy** > **Manage Website Data**.
@@ -151,11 +155,15 @@ Make sure nothing is hiding in Notifications or Login Items:
 In this case, I found the following to be suspicious:
 - **Confirm that you are not a robot** (fake banner)
 - **www.easeus.com**
+  
+![RealWebsite](AdwareRemoval/images/Click_Allow.png)
 
 ### 📋 Check Login Items
 
 1. Go to **System Preferences** > **Users & Groups** > **Login Items**.
 2. Remove any suspicious login items.
+
+![Notifications_And_Focus](AdwareRemoval/images/Notifications_And_Focus.png)
 
 > 📝 **Important:**  
 Recheck these after malware scans in case anything respawns.
@@ -188,6 +196,8 @@ To ensure there’s no file system damage from the sudden shutdowns:
 
 > 🛠️ **Why Use Disk Utility:**  
 This is a non-destructive repair tool, so it’s safe to run and highly recommended after malware issues.
+
+![DiskUtilityFirstAid](AdwareRemoval/images/First_Aid.png)
 
 ---
 
