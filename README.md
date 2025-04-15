@@ -27,7 +27,7 @@ This repository contains a step-by-step guide for identifying and removing adwar
 ## 📄 Documentation  
 
 Refer to the full guide:  
-- **[Detailed Step-by-Step Instructions](AdwareRemoval.md)**  
+- **[Detailed Step-by-Step Instructions](Guide.md)**  
 - **[PDF Version](Removing_Adware_MacOs_Monterey.pdf)** (alternative format)  
 
 ## 🤝 Contributing  
