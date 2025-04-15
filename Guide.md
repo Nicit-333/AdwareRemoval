@@ -79,7 +79,7 @@ Once connected to the internet, the user was receiving fake system notifications
 - Notifications only appear while online  
 - Behavior consistent with adware exploiting browser notification permissions
 
-![Fake_Notifications](AdwareRemoval/images/Fake_Notifications.png)
+![Fake_Notifications](images/Fake_Notifications.png)
 
 ---
 
