@@ -19,7 +19,7 @@ This repository contains a step-by-step guide for identifying and removing adwar
 
 1. Download Malwarebytes (optional but recommended).  
 2. Follow the step-by-step guide in **(AdwareRemoval.md)** to:  
-   - Check for suspicious startup items in `~/Library/LaunchAgents``~/Library/LaunchDaemons`.  
+   - Check for suspicious startup items in `~/Library/LaunchAgents` - `~/Library/LaunchDaemons`.  
    - Analyze system logs with `log show` commands.  
    - Clean Safari permissions and website data.  
    - Run Disk Utility and Apple Diagnostics.  
