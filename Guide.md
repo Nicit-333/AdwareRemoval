@@ -79,7 +79,7 @@ Once connected to the internet, the user was receiving fake system notifications
 - Notifications only appear while online  
 - Behavior consistent with adware exploiting browser notification permissions
 
-![Fake_Notifications](images/Fake_Notifications.png)
+![Fake_Notifications](images/Adware.png)
 
 ---
 
@@ -94,7 +94,7 @@ To investigate the source of the notifications, I checked the logs for any unusu
    ```bash
    log show --predicate 'eventType == "com.apple.message.system.bootstrap"' --last 7d
 
-![Logs7d](AdwareRemoval/images/Logs.png)
+![Logs7d](images/Logs.PNG)
 
 ### 🔎 What to Look For
 Unusual system processes, errors, or any suspicious app/process names during the period of fake notifications.
@@ -128,7 +128,7 @@ The next step was to clean up Safari and remove any traces of the suspicious beh
 1. Open **Safari** > **Preferences** > **Websites** > **Notifications**.
 2. Remove any unfamiliar or sketchy websites (in this case, I found 3).
 
-![Notifications](AdwareRemoval/images/Websites.png)
+![Notifications](images/Websites.PNG)
 
 ### 🧹 Clear Website Data
 
@@ -156,14 +156,14 @@ In this case, I found the following to be suspicious:
 - **Confirm that you are not a robot** (fake banner)
 - **www.easeus.com**
   
-![RealWebsite](AdwareRemoval/images/Click_Allow.png)
+![RealWebsite](images/Click_Allow.PNG)
 
 ### 📋 Check Login Items
 
 1. Go to **System Preferences** > **Users & Groups** > **Login Items**.
 2. Remove any suspicious login items.
 
-![Notifications_And_Focus](AdwareRemoval/images/Notifications_And_Focus.png)
+![Notifications_And_Focus](images/Notifications_And_Focus.PNG)
 
 > 📝 **Important:**  
 Recheck these after malware scans in case anything respawns.
@@ -197,7 +197,7 @@ To ensure there’s no file system damage from the sudden shutdowns:
 > 🛠️ **Why Use Disk Utility:**  
 This is a non-destructive repair tool, so it’s safe to run and highly recommended after malware issues.
 
-![DiskUtilityFirstAid](AdwareRemoval/images/First_Aid.png)
+![DiskUtilityFirstAid](images/First_Aid.png)
 
 ---
 
