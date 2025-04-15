@@ -1,4 +1,4 @@
-# macOS Adware Removal Guide  
+# MacOS Adware Removal Guide  
 
 This repository contains a step-by-step guide for identifying and removing adware, fake notifications, and browser hijacks on macOS Monterey. Designed for both technical users and beginners, the guide combines manual cleanup steps with tool-assisted scans.  
 
