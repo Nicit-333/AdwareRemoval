@@ -1,0 +1,2 @@
+# AdwareRemoval
+Adware removal documentation
